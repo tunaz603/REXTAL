@@ -26,7 +26,9 @@ The key input data is 10X Genomics linked-reads from individual human genomes, i
 Dependency:
 To run REXTAL you have to install Longranger Basic, BLAT, 10X Genomics Supernova (assembler) in your server.
   
- Here is the Link of our paper: https://link.springer.com/chapter/10.1007/978-3-319-94968-0_6
+ Here is the Publication link of our paper: https://link.springer.com/chapter/10.1007/978-3-319-94968-0_6
+ 
  You can read the pdf from my website: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0dW5hemlzbGFtfGd4Ojc4M2YzYWEzNTRjYTE2NjE
+ 
  Presentation Slide: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0dW5hemlzbGFtfGd4OjY5YjVjMjc1MjBjN2FiNQ
 
