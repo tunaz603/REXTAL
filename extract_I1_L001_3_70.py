@@ -6,7 +6,7 @@ import numpy
 
 fp = open('/scratch-lustre/tisla003/Original_Data/longranger/longranger_input/HG00353/HG00353_S1_L001_I1_001.fastq', 'r')
 fi_ln = open('/scratch-lustre/tisla003/Original_Data/summer2018/BLAT_output/18p/split_L001/output_line_number_L001_3_70.txt','r')
-fo = open('print_L001_I1_3_70.fastq', 'w')
+fo = open('print_L001_I1.fastq', 'w')
 line_count = 1501299476  # line count in HG00353_S1_L001_I1_001.fastq file = 1501299476
 arr_head = []
 arr_seq = []
