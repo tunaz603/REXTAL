@@ -4,7 +4,7 @@ import math
 import time
 import numpy
 
-fi_ln = open('/scratch-lustre/tisla003/Original_Data/summer2018/BLAT_output/Xq_2nd/split_L002/illumina_bc_linenum_L002_big.fastq','r')
+fi_ln = open('/scratch-lustre/tisla003/Original_Data/summer2018/BLAT_output/18p/split_L002/illumina_bc_linenum_L002_big.fastq','r')
 
 fo_line_number = open ('output_line_number_L002_3_70.txt','w')
 
