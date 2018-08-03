@@ -24,7 +24,9 @@ The key input data is 10X Genomics linked-reads from individual human genomes, i
  You will find output of REXTAL in ../18p/supernova_assembly_18/ here named as 18p_pseudohap2.1.fasta and 18p_pseudohap2.2.fasta.
       
 Dependency:
-To run REXTAL you have to install Longranger Basic, BLAT, 10X Genomics Supernova (assembler) in your server.
+1) To run REXTAL you have to install Longranger Basic, BLAT, 10X Genomics Supernova (assembler) in your server.
+
+2) To run other subtelomeric region for example 16p, 16q, 17p, 17q, 20q, 22q etc. you have to rename contents of file with corresponding subtelomere name. These files: pipeline_(corresponding_subtelomere)p.sh (main REXTAL pipeline file), extract_bc_range.py, cluster_bc_multiple_3_70.py, file_match_3_70_L001.sh, file_match_3_70_L002.sh, get_line_number_L001.py, get_line_number_L002.py, extract_I1_L001_3_70.py, extract_R1_L001_3_70.py, extract_R2_L001_3_70.py, extract_I1_L002_3_70.py,  extract_R1_L002_3_70.py,  extract_R2_L002_3_70.py.
   
  Here is the Publication link of our paper: https://link.springer.com/chapter/10.1007/978-3-319-94968-0_6
  
