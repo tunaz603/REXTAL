@@ -6,11 +6,13 @@ The key input data is 10X Genomics linked-reads from individual human genomes, i
   1) We processed the raw 10X Genomics data using Long Ranger Basic software developed by 10X Genomics (and freely available to any researcher) to generate barcode-filtered 10XG linked-reads. The Long Ranger basic pipe-line performs basic read and barcode processing including read trimming, barcode error correction, barcode whitelisting, and attaching barcodes to reads. Please see the file Longranger_run.sh, Longranger_postprocessing.sh. 
   
       i) To run Longranger Basic:
+      
           In SSH type:
           sbatch Longranger_run.sh
           
        ii) Longranger Basic generates output in .fastq file. We did postprocessing of that .fastq file. 
-          In SSH type:
+          
+          To postprocessing of longranger basic output SSH type:
           sbatch Longranger_postprocessing.sh
   2) extract 18p 1-copy, bait, segmental duplication from UC genome browser
   3) Use online RepeatMasker (RM)
