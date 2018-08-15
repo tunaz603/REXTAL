@@ -3,7 +3,7 @@ To run REXTAL for 18p:
 
 The key input data is 10X Genomics linked-reads from individual human genomes, in our case from the genome of a publically available cell line GM19440. Our dataset has approximately 1.49 billion 10X Genomics linked-reads in paired-end format, with each read about 150 bp.
 1) Preprocessing:
-  1) We processed the raw 10X Genomics data using Long Ranger Basic software developed by 10X Genomics (and freely available to any researcher) to generate barcode-filtered 10XG linked-reads. The Long Ranger basic pipe-line performs basic read and barcode processing including read trimming, barcode error correction, barcode whitelisting, and attaching barcodes to reads. Please see the file Longranger_preprocessing.sh
+  1) We processed the raw 10X Genomics data using Long Ranger Basic software developed by 10X Genomics (and freely available to any researcher) to generate barcode-filtered 10XG linked-reads. The Long Ranger basic pipe-line performs basic read and barcode processing including read trimming, barcode error correction, barcode whitelisting, and attaching barcodes to reads. Please see the file Longranger_run.sh, Longranger_preprocessing.sh
   2) extract 18p 1-copy, bait, segmental duplication from UC genome browser
   3) Use online RepeatMasker (RM)
   4) Use tandem repeat finder
