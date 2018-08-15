@@ -3,7 +3,7 @@
 #SBATCH -n 32
 #SBATCH --exclusive
 #SBATCH -p himem
-#SBATCH -J job_longranger_postprcessing
+#SBATCH -J job_longranger_postprocessing
 start_time=`date +%s`
 cd /scratch-lustre/tisla003/Original_Data/longranger/longranger_output/barcoded_output/outs/ &&
 seqtk seq -a barcoded.fastq > barcoded_fasta_big.fasta &&
