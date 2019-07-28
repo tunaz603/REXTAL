@@ -38,9 +38,13 @@ Dependency:
 
 2) To run other subtelomeric region for example 16p, 16q, 17p, 17q, 20q, 22q etc. you have to rename contents of file with corresponding subtelomere name. These files: pipeline_(corresponding_subtelomere)p.sh (main REXTAL pipeline file), extract_bc_range.py, cluster_bc_multiple_3_70.py, file_match_3_70_L001.sh, file_match_3_70_L002.sh, get_line_number_L001.py, get_line_number_L002.py, extract_I1_L001_3_70.py, extract_R1_L001_3_70.py, extract_R2_L001_3_70.py, extract_I1_L002_3_70.py,  extract_R1_L002_3_70.py,  extract_R2_L002_3_70.py.
   
- Here is the Publication link of our paper: https://link.springer.com/chapter/10.1007/978-3-319-94968-0_6
+ Here is the Publication link of our paper: 
+ REXTAL: https://link.springer.com/chapter/10.1007/978-3-319-94968-0_6
+ Analysis of REXTAL: https://ieeexplore.ieee.org/document/8703093
  
- You can read the pdf from my website: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0dW5hemlzbGFtfGd4Ojc4M2YzYWEzNTRjYTE2NjE
+ You can read the pdf from my website: 
+ REXTAL: https://tunazislam.github.io/files/REXTAL_ISBRA2018.pdf
+ Analysis of REXTAL: https://tunazislam.github.io/files/REXTAL_QUAST_TCBB2019.pdf
  
  Presentation Slide: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0dW5hemlzbGFtfGd4OjY5YjVjMjc1MjBjN2FiNQ
 
