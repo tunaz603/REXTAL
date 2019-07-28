@@ -40,10 +40,12 @@ Dependency:
   
  Here is the Publication link of our paper: 
  REXTAL: https://link.springer.com/chapter/10.1007/978-3-319-94968-0_6
+ 
  Analysis of REXTAL: https://ieeexplore.ieee.org/document/8703093
  
  You can read the pdf from my website: 
  REXTAL: https://tunazislam.github.io/files/REXTAL_ISBRA2018.pdf
+ 
  Analysis of REXTAL: https://tunazislam.github.io/files/REXTAL_QUAST_TCBB2019.pdf
  
  Presentation Slide: https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnx0dW5hemlzbGFtfGd4OjY5YjVjMjc1MjBjN2FiNQ
