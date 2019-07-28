@@ -6,14 +6,15 @@ The key input data is 10X Genomics linked-reads from individual human genomes, i
   1) We processed the raw 10X Genomics data using Long Ranger Basic software developed by 10X Genomics (and freely available to any researcher) to generate barcode-filtered 10XG linked-reads. The Long Ranger basic pipe-line performs basic read and barcode processing including read trimming, barcode error correction, barcode whitelisting, and attaching barcodes to reads. Please see the file Longranger_run.sh, Longranger_postprocessing.sh. 
   
       i) To run Longranger Basic:
-      
-          In SSH type:
+ 
+          ```
           sbatch Longranger_run.sh
-          
+          ```
        ii) Longranger Basic generates output in .fastq file. We did postprocessing of that .fastq file. 
-          
-          To postprocessing of longranger basic output SSH type:
-          sbatch Longranger_postprocessing.sh
+         
+        ```
+        sbatch Longranger_postprocessing.sh
+        ```
   2) extract 18p 1-copy, bait, segmental duplication from UC genome browser
   3) Use online RepeatMasker (RM)
   4) Use tandem repeat finder
@@ -25,10 +26,14 @@ The key input data is 10X Genomics linked-reads from individual human genomes, i
     2) We have another input fasta file (Hg38 extracted from UC genome browser ) in a folder named /scratch-lustre/tisla003/Original_Data/summer2018/input/18p_Bait_RM_tandem.fasta. I used the directoy where I kept, you can rename it according to yours.
     3) Keep the files pipeline_18p.sh (main REXTAL pipeline file), extract_bc_range.py, cluster_bc_multiple_3_70.py, file_match_3_70_L001.sh, file_match_3_70_L002.sh, get_line_number_L001.py, get_line_number_L002.py, extract_I1_L001_3_70.py, extract_R1_L001_3_70.py, extract_R2_L001_3_70.py, extract_I1_L002_3_70.py,  extract_R1_L002_3_70.py,  extract_R2_L002_3_70.py in a directory i.e. 18p.
     4) In SSH type:
+      ```
       dos2unix pipeline_18p.sh
       chmod +x pipeline_18p.sh
+      ```
     5) Run the job script:
+      ```
       sbatch pipeline_18p.sh
+      ```
  
  3) Output: 
  You will find output of REXTAL in ../18p/supernova_assembly_18/ here named as 18p_pseudohap2.1.fasta and 18p_pseudohap2.2.fasta.
